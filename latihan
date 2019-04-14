@@ -1,0 +1,21 @@
+
+function rotLeft (rotate){
+var rotasi    = rotate ;
+    perputaran = [];
+
+
+
+  for ( var i = 0 ; i <= rotate.length-1 ; i++){
+        perputaran.push (rotasi[2] + rotasi[i] )
+      
+      } 
+
+   
+             
+      
+    console.log(perputaran)  
+
+ }  
+  
+
+console.log(rotLeft([1, 2, 3, 4, 5]))
